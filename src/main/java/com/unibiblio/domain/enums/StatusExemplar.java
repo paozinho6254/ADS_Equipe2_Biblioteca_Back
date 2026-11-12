@@ -1,5 +1,8 @@
 package com.unibiblio.domain.enums;
 
-public class StatusExemplar {
-    
+public enum StatusExemplar {
+    DISPONIVEL,
+    EMPRESTADO,
+    DANIFICADO,
+    PERDIDO
 }

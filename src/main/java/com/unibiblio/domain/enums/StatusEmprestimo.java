@@ -1,5 +1,8 @@
 package com.unibiblio.domain.enums;
 
-public class StatusEmprestimo {
-    
+public enum StatusEmprestimo {
+    ATIVO,
+    DEVOLVIDO_NO_PRAZO,
+    DEVOLVIDO_COM_ATRASADO,
+    ATRASADO
 }

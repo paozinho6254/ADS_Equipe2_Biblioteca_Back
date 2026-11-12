@@ -1,5 +1,6 @@
 package com.unibiblio.domain.enums;
 
-public class ModalidadePagamento {
-    
+public enum ModalidadePagamento {
+    PIX,
+    DINHEIRO    
 }

@@ -12,6 +12,7 @@ classDiagram
             +String email
             +String senhaHash
             +autenticar(senha) boolean
+            +Perfil perfil
         }
         class Aluno {
             +String matricula
@@ -131,6 +132,12 @@ classDiagram
         }
     }
 
+    class Perfil {
+        <<enumeration>>
+        ALUNO
+        BIBLIOTECARIO
+        ADMINISTRADOR
+    }
     class StatusExemplar {
         <<enumeration>>
         DISPONIVEL
